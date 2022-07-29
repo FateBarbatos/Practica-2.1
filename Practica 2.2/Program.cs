@@ -8,7 +8,7 @@ namespace Practica_2._2
         {
             string FirsName = "Alcides";
             String SecondName = "Granados";
-            int edad = 16;
+            int edad = 18;
             var name = FirsName + " " + SecondName;
             Console.WriteLine("Tu nombre es: {0} y su edad es {1}" , name, edad);
         }
