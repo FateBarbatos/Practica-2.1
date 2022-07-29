@@ -10,10 +10,10 @@ namespace Practica_2._5
             int num1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Introduzca el segundo numero");
             int num2 = int.Parse(Console.ReadLine());
-            int suma = num1 + num2;
-            int resta = num1 - num2;
-            int multiplicacion = num1 * num2;
-            int division = num1 / num2;
+            var suma = num1 + num2;
+            var resta = num1 - num2;
+            var multiplicacion = num1 * num2;
+            var division = num1 / num2;
             
             Console.WriteLine("La suma es igual a:{0}", suma);
             Console.WriteLine("La resta es igual a {0}", resta);
